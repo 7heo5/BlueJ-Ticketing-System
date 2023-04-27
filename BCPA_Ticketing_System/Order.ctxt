@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Order
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Order\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=show\ customer\ numberOfSeats
+comment1.target=Order(Show,\ Customer,\ int)
+comment2.params=
+comment2.target=int\ getOrderNumber()
+comment3.params=
+comment3.target=Show\ getShow()
+comment4.params=
+comment4.target=Customer\ getCustomer()
+comment5.params=
+comment5.target=int\ getNumberOfSeats()
+comment6.params=
+comment6.target=java.lang.String\ toString()
+numComments=7
