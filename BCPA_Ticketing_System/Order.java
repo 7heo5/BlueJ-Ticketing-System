@@ -1,13 +1,6 @@
 
-/**
- * Write a description of class Order here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
 public class Order
 {
-    // instance variables - replace the example below with your own
     private static int nextOrderNumber = 1;
     private int orderNumber;
     private Show show;

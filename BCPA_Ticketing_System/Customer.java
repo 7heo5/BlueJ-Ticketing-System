@@ -1,13 +1,7 @@
 import java.util.ArrayList;
-/**
- * Write a description of class Customer here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
+
 public class Customer
 {
-    // instance variables - replace the example below with your own
     private String name;
     private String email;
     private String address;
@@ -74,11 +68,18 @@ public class Customer
         return order;
     }
     
-     public ArrayList<Order> viewOrders() {
-        return orders;
+    public void viewOrders(Customer customer, Order ticket, Show show) {
+        System.out.println("Your Ticket: ");
+        for (Order order : orders) {
+            if (order.getCustomer().equals(customer)) {
+                System.out.println(order);
+            }
+        }
     }
     
-    public ArrayList<Show> viewShows(ArrayList<Show> shows) {
-        return shows;
+    public void viewShows(Show show) {
+        System.out.println("Show name: " + show.getName());
+        System.out.println("Start Time: " + show.getStartTime());
+        System.out.println("End Time: " + show.getEndTime());
     }
 }

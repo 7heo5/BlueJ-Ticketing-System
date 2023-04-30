@@ -1,10 +1,9 @@
 #BlueJ class context
 comment0.target=Customer
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ Customer\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
 comment1.params=username\ password\ name\ email\ address\ creditCardNumber
 comment1.target=Customer(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
-comment10.params=shows
-comment10.target=java.util.ArrayList\ viewShows(java.util.ArrayList)
+comment10.params=show
+comment10.target=void\ viewShows(Show)
 comment2.params=
 comment2.target=java.lang.String\ getName()
 comment3.params=
@@ -19,6 +18,6 @@ comment7.params=name\ email\ username\ password\ address\ creditCardNumber
 comment7.target=void\ updateAccount(java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
 comment8.params=show\ numberOfSeats
 comment8.target=Order\ createOrder(Show,\ int)
-comment9.params=
-comment9.target=java.util.ArrayList\ viewOrders()
+comment9.params=customer\ ticket\ show
+comment9.target=void\ viewOrders(Customer,\ Order,\ Show)
 numComments=11

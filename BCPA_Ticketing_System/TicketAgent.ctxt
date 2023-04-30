@@ -1,12 +1,11 @@
 #BlueJ class context
 comment0.target=TicketAgent
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ TicketAgent\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
 comment1.params=username\ password\ agentId
 comment1.target=TicketAgent(java.lang.String,\ java.lang.String,\ java.lang.String)
 comment2.params=
 comment2.target=java.lang.String\ getAgentId()
 comment3.params=order
 comment3.target=void\ addOrder(Order)
-comment4.params=customer
-comment4.target=void\ viewCustomerOrders(Customer)
+comment4.params=customer\ ticket\ show
+comment4.target=void\ viewCustomerOrders(Customer,\ Order,\ Show)
 numComments=5
